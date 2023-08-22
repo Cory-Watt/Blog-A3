@@ -20,7 +20,7 @@ $new_password2 = isset($_POST['password-confirm']) ? $_POST['password-confirm'] 
 echo "<h2>Trying to add a new user " . $new_username . "</h2>";
 
 // Check the database to see if this username is already taken
-$stmt = $conn->prepare("SELECT * FROM users WHERE user_name = ?");
+$stmt = $conn->prepare("SELECT * FROM users WHERE CAST(user_name AS NVARCHAR(MAX)) = ?");
 $stmt->bindParam(1, $new_username);
 $stmt->execute();
 $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
