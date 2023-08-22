@@ -84,9 +84,10 @@
     <?php $conn = null; ?>
 
     <!-- Google Sign-In button setup, with client ID and callback function provided -->
-    <div id="g_id_onload" data-client_id="978762936400-tbms5iruo7jmjhiccduekbs93mhjmc2e.apps.googleusercontent.com"
-        data-login_uri="process_google_login.php" data-callback="onSignIn">
+    <div id="g_id_onload" data-client_id="978762936400-13rs762kpapkc7f884r04rtfat8oiqar.apps.googleusercontent.com"
+        data-login_uri="https://activity-3-blog.azurewebsites.net/process_google_login.php" data-callback="onSignIn">
     </div>
+
 </body>
 
 </html>

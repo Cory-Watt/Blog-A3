@@ -14,9 +14,9 @@ $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 // Initializing the Google Client to set up OAuth 2.0 authentication
 $client = new Google_Client();
-$client->setClientId('978762936400-tbms5iruo7jmjhiccduekbs93mhjmc2e.apps.googleusercontent.com');
-$client->setClientSecret('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');
-$client->setRedirectUri('https://activity-3-blog.azurewebsites.net/index.php/');
+$client->setClientId('978762936400-13rs762kpapkc7f884r04rtfat8oiqar.apps.googleusercontent.com');
+$client->setClientSecret('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');
+$client->setRedirectUri('https://activity-3-blog.azurewebsites.net/index.php');
 $client->addScope("email");
 $client->addScope("profile");
 
