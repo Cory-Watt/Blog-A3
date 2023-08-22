@@ -14,9 +14,9 @@ $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 // Initializing the Google Client to set up OAuth 2.0 authentication
 $client = new Google_Client();
-$client->setClientId('71748878795-v8onodffjlf8n4u2afk0u80pf17s6hoo.apps.googleusercontent.com');
-$client->setClientSecret('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');
-$client->setRedirectUri('http://localhost/jokes-basic-local/index.php');
+$client->setClientId('978762936400-tbms5iruo7jmjhiccduekbs93mhjmc2e.apps.googleusercontent.com');
+$client->setClientSecret('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');
+$client->setRedirectUri('https://activity-3-blog.azurewebsites.net/index.php');
 $client->addScope("email");
 $client->addScope("profile");
 

@@ -84,7 +84,7 @@
     <?php $conn = null; ?>
 
     <!-- Google Sign-In button setup, with client ID and callback function provided -->
-    <div id="g_id_onload" data-client_id="71748878795-v8onodffjlf8n4u2afk0u80pf17s6hoo.apps.googleusercontent.com"
+    <div id="g_id_onload" data-client_id="978762936400-tbms5iruo7jmjhiccduekbs93mhjmc2e.apps.googleusercontent.com"
         data-login_uri="process_google_login.php" data-callback="onSignIn">
     </div>
 </body>
