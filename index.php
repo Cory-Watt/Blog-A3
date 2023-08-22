@@ -81,6 +81,13 @@
                     </div>
                 </div>
 
+                <div class="form-group">
+                    <label for="submit" class="col-md-4 control-label"></label>
+                    <div class="col-md-4">
+                        <a href='logout.php'>Logout</a>
+                    </div>
+                </div>
+
             </fieldset>
         </form>
     </div>
